@@ -25,9 +25,3 @@ HOST-SUFFIX,twvid.com,Twitter
 HOST-SUFFIX,vine.co,Twitter
 HOST-SUFFIX,x.com,Twitter
 HOST-KEYWORD,twitter,Twitter
-IP-CIDR,192.133.76.0/22,Twitter
-IP-CIDR,199.59.148.0/22,Twitter
-IP-CIDR,199.96.56.0/21,Twitter
-IP-CIDR,202.160.128.0/22,Twitter
-IP-CIDR,209.237.192.0/19,Twitter
-IP-CIDR,69.195.160.0/19,Twitter
