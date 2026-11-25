@@ -32,6 +32,7 @@ host,openai-api.arkoselabs.com,OpenAI
 # >> Claude 核心域名（官方网络要求；claude.com 已含 platform / mcp 子域，claude.ai 已含 downloads 子域）
 host-suffix,claude.ai,OpenAI
 host-suffix,claude.com,OpenAI
+# host-suffix,claude.app,OpenAI
 host-suffix,anthropic.com,OpenAI
 # Claude 官方短链接
 host-suffix,clau.de,OpenAI
@@ -44,7 +45,7 @@ host,cdn.usefathom.com,OpenAI
 
 # > 登录 / 人机验证 / 证书（两家共用，保证与主站同一出口 IP）
 # Cloudflare 人机验证（OpenAI 官方白名单）
-host,challenges.cloudflare.com,OpenAI
+# host,challenges.cloudflare.com,OpenAI
 # 证书校验（公开规则库收录）
 host-suffix,identrust.com,OpenAI
 # WorkOS 登录（OpenAI 官方白名单含 cdn / setup / forwarder 子域及以下两个图片域名）
@@ -69,7 +70,7 @@ host-suffix,intercomcdn.com,OpenAI
 host-suffix,segment.io,OpenAI
 host-suffix,segment.com,OpenAI
 # Sentry 错误上报（两家官方文档都列出）
-host-suffix,sentry.io,OpenAI
+# host-suffix,sentry.io,OpenAI
 # Datadog 浏览器监控（OpenAI 用 rum.browser-intake-datadoghq.com，Claude 用 us5 区）
 host-suffix,browser-intake-datadoghq.com,OpenAI
 host-suffix,browser-intake-us5-datadoghq.com,OpenAI
